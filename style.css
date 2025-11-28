@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: lightgray;
+}
+.main {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 8vh;
+    position: relative;
+    font-family:"Dosis", sans-serif;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    position: fixed;
+}
+.navbar .logo{
+    width: 160px;
+    margin-top: -1.5%;
+    margin-left: 2%;
+}
+ul{
+    margin-top: 1px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color: blue;
+}
+.info{
+    margin-left: 10%;
+    margin-top: 8%;
+    height: 350px;
+}
+.info h1{
+    font-size: 55px;
+}
+.info h3{
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-family: "Merienda", cursive;
+    line-height: 2;
+}
+.info span{
+    color: blue;
+}
+.info a{
+    text-decoration: none;
+    color: white;
+    background: black;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.info a:hover{
+    color: blue;
+}
+.home{
+    height: 50%;
+    display: flex;
+    column-gap: 90px;
+    margin-top: 50px;
+}
+.image .girl{
+    margin-top: 20%;
+    width: 300px;
+    height: 70%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    box-shadow: 8px 5px 8px 0px black;
+}
+.girl:hover{
+    left: 55%;
+    transition: left 2s ease;
+    border: 2px double rgb(91, 122, 168) ;
+    border-bottom-left-radius:80% ;
+    border-top-right-radius: 50%;
+    box-shadow: 8px 5px 8px 0px  rgb(44, 82, 139);
+    box-shadow: 0px 0px 5px 8px  rgb(76, 107, 153);
+}
+.image:hover .girl{
+    left: 55%;
+    transition: left 2s ease;
+}
+.about {
+    color: black;
+    font-size: 30px;
+    padding: 40px;
+    margin-top: 100px;
+}
+.about h3{
+    color: blue;
+    font-size: 40px;
+    font-family: "Merienda", cursive;
+}
+.about p{
+    font-family: "Poltawski Nowy", serif;
+}
+.cards .h2{
+    color: rgb(47, 47, 197);
+    font-size: 30px;
+    margin: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-underline-position: below;
+    text-decoration-style: double;
+    text-decoration-color:rgb(90, 79, 79);
+    text-decoration-line: underline;
+    font-family: "Merienda", cursive;
+}
+.cards {
+    column-gap: 2;
+    column-gap: 70px;
+    column-rule: 2px dashed white;
+    line-height: 3em;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 20px;
+    direction: ltr;
+}
+.card3:hover {
+    border: 2px solid black;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition: 0.3s;
+}
+.card2:hover {
+    border: 2px solid black;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition: 0.3s;
+}
+.card1:hover {
+    border: 2px solid black;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition: 0.3s;
+}
+.card4:hover {
+    border: 2px solid black;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition: 0.3s;
+}
+body {
+
+font-family: "Dosis", sans-serif;
+}
+.cards {
+    display: flex;
+} 
+.card1 {
+    box-shadow: 0px 0px 15px 15px  rgb(103, 140, 165);
+    border-radius: 10px;
+    width:35%;
+    height: 250px;
+    font-size: 20px;
+    background: rgb(194, 190, 190);
+}
+.card2 {
+    box-shadow: 0px 0px 15px 15px rgb(103, 140, 165);
+    border-radius: 10px;
+    width: 35%;
+    height: 250px;
+    font-size: 20px;
+    background:linear-gradient(rgba(70, 70, 70, 0.5),rgba(0, 0, 0, 0.7));
+}
+.card3 {
+    box-shadow: 0px 0px 15px 15px rgb(103, 140, 165);
+    border-radius: 10px;
+    width: 35%;
+    background:linear-gradient(rgba(70, 70, 70, 0.5),rgba(0, 0, 0, 0.7));
+    height: 250px;
+    font-size: 20px;
+}
+.card4 {
+    box-shadow: 0px 0px 15px 15px rgb(103, 140, 165);
+    border-radius: 10px;
+    width: 35%;
+    height: 260px;
+    margin-left: 10px;
+    font-size: 20px;
+    background: rgb(194, 190, 190);
+}
+.p1{
+    margin: 10px;
+}
+.project1 h3{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    margin-top: 150px;
+    font-family: "Merienda", cursive;
+}
+.pro {
+    display: flex;
+    column-gap: 3;
+    column-gap: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.pro p{
+    text-align: center;
+    font-size: 18px;
+    font-family: "Merienda", cursive;
+}
+.img1 img{
+    width: 350px;
+    height:300px;
+    border: 1px  white;
+    border-radius: 30px;
+}
+.img2 img{
+    width: 390px;
+    height: 300px;
+    border: 1px  white;
+    border-radius: 30px;
+}
+.img3 img{
+    width: 350px;
+    height: 300px;
+    border: 1px  white;
+    border-radius: 30px;
+}
+.pro img:hover{
+    height: 350px;
+    border-top:3px solid blue;
+    border-bottom: 3px solid blue;
+    padding: 20px;
+}
+.sk{
+    display: flex;
+    column-gap: 2;
+    column-gap: 170px;
+    margin-left: 15%;
+}
+.sk p{
+    font-family: "Poltawski Nowy", serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#skills h2{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-family: "Merienda", cursive;
+}
+.skill1 h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Matemasie", sans-serif;
+    margin-bottom: 30px;
+}
+.skill2 h3{
+     font-size: 20px;
+     text-align: center;
+     font-family: "Matemasie", sans-serif;
+     margin-bottom: 30px;
+}
+.skill1{
+    background: white;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 0px black;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgb(44, 44, 161);
+}
+.skill1 i{
+    font-size: 45px;
+    color: rgb(62, 62, 168);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skill2 i{
+    font-size: 45px;
+    color: rgb(62, 62, 168);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skill2{
+    background: white;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 0px black;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgb(44, 44, 161);
+}
+.skill2:hover{
+    background: lightblue;
+    height: 250px;
+    width: 450px;
+}
+.skill1:hover{
+    background: lightblue;
+    height: 250px;
+    width: 450px;
+}
+.cont h2{
+    margin-left: 6%;
+    margin-top: 90px;
+    font-size: 50px;
+    color: blue;
+    margin-bottom: 30px;
+    text-align: left;
+    font-family: "Merienda", cursive;
+}
+.c{
+    display: flex;
+    column-gap: 2;
+    column-gap: 150px;
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+.contact {
+    font-size: 25px;
+    font-family: "Catamaran", sans-serif;
+    margin-left: 80px;
+}
+.contact span{
+    color: rgb(128, 117, 117);
+}
+.con{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) ;
+    padding: 40px;
+    margin-bottom: 20px;
+    line-height: 4;
+    font-size: 20px;
+    border: 1px black;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.con input{
+    padding: 10px;
+}
+.con textarea{
+    padding: 8px;
+}
+.con button{
+    text-decoration: none;
+    color: white;
+    background: black;
+    margin: 26px 0;
+    padding: 10px 18px;
+border-radius: 10px;
+    display: inline-block;
+}
+.con button:hover{
+    color: blue;
+}
+.textarea{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+footer {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background: black;
+    height: 85px;
+    padding-top: 50px;
+    margin-top: 30px;
+    margin: 20px;
+}
+.foot{
+    font-size: 30px;
+    color: rgb(88, 88, 119);
+    margin-bottom: 20px;
+}
+.send{
+    padding: 30px;
+    margin: 50px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) ;
+    width: 70%;
+    margin-left: 150px;
+    margin-top: 80px;
+    line-height: 2;
+    color: white;
+}
+.send h1{
+font-size: 30px;
+font-weight: bold;
+color: #000;
+}
+.send h1 i{
+color:yellow;
+}
+.send p{
+    font-size: 18px;
+    font-family: "Merienda", cursive;
+}
+.send a{
+    text-decoration: none;
+    color:lightcyan;
+    font-size: 17px;
+    margin-top: 200px;
+}
+.send a:hover{
+    color: #000;
+    font-size:20px ;
+}
